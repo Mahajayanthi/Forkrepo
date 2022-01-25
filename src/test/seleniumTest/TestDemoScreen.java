@@ -34,6 +34,7 @@ public class TestDemoScreen {
         File file = ((TakesScreenshot)driver).getScreenshotAs((OutputType.FILE));
         FileUtils.copyFile(file, new File("C:\\Users\\jujuprethab\\eclipse-workspace\\Selenium_Test\\Screenshot\\"
                 +fileName+"juju.png"));
+        system.out.println("team demo task");
     }
 }
 
